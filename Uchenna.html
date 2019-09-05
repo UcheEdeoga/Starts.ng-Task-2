@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
     <title>Uchenna.html</title>
 </head>
 <body>
-    <div>
-        <h1>UCHENNA JOHN EDEOGA</h1></td><br><hr>
+    
+    <div class="header-div">
+        <h1>UCHENNA JOHN EDEOGA</h1></td><br><hr width="90%" >
         <img src="https://res.cloudinary.com/theucheedeoga/image/upload/v1566740178/25550385_1438290576290970_2166317090808189872_n_sriaya.jpg" alt="CV Picture">
         <p><strong>ADDRESS: NO.33 BASSEY DUKE STREET, NEW HAVEN,<br>ENUGU NIGERIA</p></strong>
         <p><a href="PHONE NUMBER: +2349079888067">PHONE NUMBER: +2349079888067</a></p>
         <p><a href="EMAIL: Uchejohnedeoga@gmail.com">EMAIL: Uchejohnedeoga@gmail.com</a></p>        
     </div>
 
-    <div>
+
+    <div class="sub-header">
         <h3><strong>Professional Summary</strong></h3><hr>
         <p>Self-taught, passionate, and highly motivated UI/UX designer and Front-end developer<br>seeking to expand my knowledge and learn more about web technologies and build exceptional products for users.</p>
     </div>
@@ -29,7 +32,7 @@
             <li><strong>Leadership Skills</strong></li>
         </ul>
     </div>
-    <div>
+    <div class="sub-header2">
         <h3><strong>Experience</strong></h3><hr>
         <h4><strong>Front-end developer intern &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Nov 2018 - April 2019</strong></h4>
         <p><strong>Satowallet- Abuja Nigeria</strong></p>
@@ -40,7 +43,7 @@
         <p>As part of the interns we were taught the fundamentals of software development, and web designs. </p>
 
     </div>
-    <div>
+    <div class="sub-header3">
             <h3><strong>Education</strong></h3><hr>
             <h4><strong>Bachelor of Science &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; March 2013 - Oct 2018</strong></h4>
             <p><strong>Enugu state university of science and technology-Enugu, Nigeria</strong></p>
@@ -49,7 +52,42 @@
             <h4><strong>O'level Certificate &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Sep 2006 - July 2012</strong></h4>
             <p><strong>Government Secondary school Lugbe- Abuja, Nigeria</strong></p>
             <P>Senior Prefect, Government Secondary School Lugbe 2012’ set</P><br>
+            
 
+
+    </div>
+    <div>
+            <form action>
+                <h3 id="form_header">Contact me</h3>
+                
+                <label for="title">Title</label>
+                <select id="Title" name="title">
+                  <option value="australia">Mr</option>
+                  <option value="canada">Mrs</option>
+                  <option value="usa">Miss</option>
+                </select>
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Nigeria</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+                
+                    <label for="lname">Email</label>
+                    <input type="email" id="email" name="Email" placeholder="Enter your email"><br><br>
+                    <label for="message">Message</label>
+                    <textarea id="Message" name="Message" placeholder="Write your message" style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
 
     </div>
 
